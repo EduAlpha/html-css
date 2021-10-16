@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Grouping tag </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(179, 173, 173);
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+              color: rgb(41, 37, 37);
+        }
+
+        header {
+            background-color: grey
+            ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: rgb(59, 59, 59);
+            box-shadow: 2px 2px 3px black;
+            border-radius: 7px;
+        }
+      
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        ol > a {
+            color: rgb(202, 199, 199);
+            text-decoration: none;
+        }
+        
+        ol > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        main {
+            background-color: grey
+            ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }        
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 2px 2px 3px black;
+            border-radius: 7px;
+        }
+
+        article > aside {
+            background-color: rgb(125, 134, 143);
+            padding: 1px;
+            text-align: right;
+        }
+
+        footer {
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            color: white;
+            text-align: center;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+ 
+    <header>
+       <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>            <a href="#">Link</a>            <a href="#">Link</a>            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+           <nav>
+               <ol><a href="#">Esportes</a></ol>
+               <ol><a href="#">Politica</a></ol>
+               <ol><a href="#">Educação</a></ol>
+               <ol><a href="#">Tecnologia</a></ol>
+           </nav>
+           <p>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, a veniam ut perspiciatis dolor aut vel deleniti. Impedit, odio delectus. Aut at voluptate magni quas, necessitatibus nesciunt ipsa. Sapiente, delectus.</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vel molestias dolor, ducimus ad tempora numquam, similique deserunt cum labore nobis. Eos ad veritatis magni quaerat minima deleniti repellendus ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit mollitia accusantium aliquam quo numquam praesentium dignissimos esse dolore, quis veniam nam quasi reiciendis minus facere aut. Accusamus, inventore dicta!</p>
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>

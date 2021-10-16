@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+body {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+ /*font-style -> font-weigth -> fonte-size -> font-family*/
+
+h1 {
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+}
